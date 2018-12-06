@@ -38,8 +38,9 @@ class AppComponent extends Component {
         this._isMounted = false;
     }
     render() {
+        const repo = `/${window.location.pathname.split('/')[1]}`;
         return (
-            <BrowserRouter>
+            <BrowserRouter base-name={ repo }>
                 <Route
                     render={({location}) => (
                         <>

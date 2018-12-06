@@ -95,7 +95,7 @@ class CoinsComponent extends Component {
                     </h2>
                 </div>
                     </>)
-                : <div className="loader"><img src="./loader.gif" /></div>
+                : <div className="loader"><img src="./loader.gif" alt="CryptoCurrency"/></div>
                 }
             </div>
         );
