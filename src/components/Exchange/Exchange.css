@@ -1,0 +1,7 @@
+.row-bottom{
+    border-bottom: 1px solid #a49f98;
+    padding: 15px;
+}
+.hidden-button .submitBtn{
+    display: none;
+}

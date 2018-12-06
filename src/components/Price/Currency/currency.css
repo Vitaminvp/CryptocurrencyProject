@@ -1,0 +1,47 @@
+.coin img {
+    height: 100%;
+    text-align: center;
+}
+
+.coin a {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    right: -1.5rem;
+    top: -1.5rem;
+    background-color: transparent;
+    text-decoration: none;
+    color: #acacac;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    transition: all 0.25s ease;
+}
+
+.coin a:hover {
+    color: tomato;
+}
+
+h2 {
+    color: tomato;
+    text-shadow: 0 1px 0 #000;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+h3 {
+    margin-bottom: 4px;
+    color: tomato;
+    text-shadow: 0 1px 0 #000;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+}

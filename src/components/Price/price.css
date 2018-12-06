@@ -1,0 +1,51 @@
+.coinsWrapper{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.coinContainer{
+    width: 50%;
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+}
+.coinContainer + .coinContainer{
+    border-left: 1px solid #d0d0d0;
+}
+i{
+    color: #4e4e4e;
+}
+.coins{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    margin-top: 30px;
+    flex: 1;
+}
+.coinSelect, .submitBtn{
+    width: 100px;
+    margin: 0 10px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+}
+.submitBtn:disabled{
+    cursor: default;
+    border-width: 0;
+
+}
+@media (max-width: 768px) {
+    .coinsWrapper{
+        flex-wrap: wrap;
+    }
+    .coinContainer{
+        width: 100%;
+        padding: 20px;
+    }
+    .coinContainer + .coinContainer{
+        border-left: none;
+        border-top: 1px solid #d0d0d0;
+    }
+}

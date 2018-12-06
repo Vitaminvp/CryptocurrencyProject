@@ -1,0 +1,47 @@
+.coin {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 0px 4px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #c6c6c6;
+    box-shadow: 0 0 1px #ccc;
+}
+.coin span{
+    font-weight: bold;
+}
+
+.coin img {
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.coin a {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    right: -1.5rem;
+    top: -1.5rem;
+    background-color: transparent;
+    text-decoration: none;
+    color: #acacac;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    transition: all 0.25s ease;
+}
+
+.coin a:hover {
+    color: tomato;
+}

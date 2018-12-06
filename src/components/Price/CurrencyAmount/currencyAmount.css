@@ -1,0 +1,112 @@
+.coinAmount {
+    margin-bottom: 10px;
+    border-bottom: none;
+}
+
+.coinAmount_text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin: 0 10px;
+    border-radius: 5px;
+    outline: none;
+    color: tomato;
+    text-shadow: 0 1px 0 #000;
+    font-weight: bold;
+    padding: 4.5px;
+}
+
+.coinAmount_text span {
+    width: 70px;
+}
+
+.coinAmount_text ul {
+    position: relative;
+}
+
+.coinAmount_text ul {
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+    text-shadow: none;
+    justify-content: space-around;
+}
+.coinAmount_text ul div{
+    min-width: 25%;
+    width: 100%;
+}
+.coinAmount_text .toggleArrow {
+    align-self: flex-start;
+}
+.coinAmount_text ul ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-shadow: none;
+}
+
+.coinAmount_text ul li {
+    padding: 0;
+    text-align: left;
+}
+.coinAmount_info{
+    display: flex;
+    color: tomato;
+    margin: 0 10px 0 0;
+    font-weight: bold;
+}
+.coinAmount_info span{
+    font-weight: normal;
+}
+.coinAmount_info ul{
+    list-style-type: none;
+}
+.coinAmount_info .img_block{
+    width: 30%;
+}
+.coinAmount_info .img_block img{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+.coinAmount_text a{
+    text-decoration: none;
+    color: #acacac;
+    transition: all .25s ease;
+}
+.coinAmount_text a:hover{
+    text-decoration: none;
+    color: tomato;
+}
+.coinInfo-enter {
+    opacity: 0.01;
+}
+
+.coinInfo-enter.coinInfo-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.coinInfo-leave {
+    opacity: 1;
+}
+
+.coinInfo-leave.coinInfo-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}
+.coinInfo-appear {
+    opacity: 0.01;
+}
+
+.coinInfo-appear.coinInfo-appear-active {
+    opacity: 1;
+    transition: opacity .5s ease-in;
+}

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+.top-menu {
+    position: relative;
+    background: #fff;
+    box-shadow: inset 0 0 10px #ccc;
+    margin-bottom: 20px;
+}
+.top-menu:before,
+.top-menu:after {
+    content: "";
+    display: block;
+    height: 1px;
+    border-top: 3px solid #f3ece1;
+    border-bottom: 1px solid #dad3c9;
+    margin-bottom: 2px;
+}
+.top-menu:after {
+    border-bottom: 3px solid #f3ece1;
+    border-top: 1px solid #dad3c9;
+    box-shadow: 0 1px 3px #ccc;
+    margin-top: 2px;
+}
+.menu-main {
+    list-style: none;
+    padding: 0 30px;
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+}
+.menu-main:before,
+.menu-main:after {
+    content: "¤";
+    line-height: 1;
+    text-shadow: 0 2px 0 #000;
+    /*color: #587c1f;*/
+    color: tomato;
+    font-size: 2.2rem;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.menu-main:before {left: 15px;}
+.menu-main:after {right: 15px;}
+.menu-main li {
+    display: inline-block;
+    padding: 5px 0;
+}
+.menu-main a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 5px;
+    padding: 6px 15px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #777777;
+    border-bottom: 1px solid transparent;
+    transition: .3s linear;
+}
+.menu-main .active, .menu-main a:hover {
+    border-radius: 3px;
+    background: #f3ece1;
+    /*color: #587c1f;*/
+    color: tomato;
+    text-shadow: 0 1px 0 #fff;
+    border-color: #c6c6c6;
+    font-weight: bold;
+}
+@media (max-width: 500px) {
+    .menu-main li {
+        display: block;
+    }
+}

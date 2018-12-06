@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.text-center{
+  text-align: center;
+}
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 350ms ease-in;
+}
+.fade-exit.fade-exit-active {
+  display: none;
+}
+h1{
+    color: tomato;
+    text-shadow: 0 2px 0 #000;
+}
+.top-menu + div{
+    border-radius: 5px;
+    margin: 30px;
+    background-color: #f3ece1;
+    padding: 11px 10px 30px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #c6c6c6;
+    box-shadow: 0 0 1px #ccc;
+}
+#modal-root {
+    position: relative;
+    z-index: 999;
+}
+.modal {
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+.modal div{
+    position: relative;
+    outline: none;
+}
+.modal div img{
+    max-width: 300px;
+}
+.modal div button{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    bottom: 100%;
+    left: 100%;
+    font-size: 5rem;
+    color: darkgray;
+    transition: all .25s ease;
+    cursor: pointer;
+}
+.modal div button:hover{
+    color: tomato;
+    transform: scale(1.05);
+}
