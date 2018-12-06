@@ -2,7 +2,7 @@
   "name": "cripto",
   "version": "0.1.0",
   "private": true,
-  "homepage": "",
+  "homepage": "https://vitaminvp.github.io/CryptocurrencyProject/",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "chart.js": "^2.7.3",
